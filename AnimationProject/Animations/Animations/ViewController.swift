@@ -72,13 +72,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         print(indexPath.row)
         
-        let detailViewController = DetailViewController()
-        
-        let cell = collectionView.cellForItemAtIndexPath(indexPath) as! AlbumImageView
-        
-        detailViewController.image = cell.imageView.image
-        detailViewController.imageIndex = indexPath.row
-//        navigationController?.pushViewController(detailViewController, animated: true)
         self.performSegueWithIdentifier("pushDetail", sender: indexPath)
         
     }
