@@ -1,0 +1,213 @@
+{
+  "responseDesc" : "Success",
+  "responseCode" : "1",
+  "trafficcrimes" : [
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.1848134",
+      "crimeDate" : "23\/08\/2015 03:57",
+      "locationY" : "55.3369652",
+      "crimeDescEn" : "حادث صدم جدار- متوسط",
+      "crimeDescAr" : "حادث صدم جدار- متوسط",
+      "crimeID" : "3024913132"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.0444337",
+      "crimeDate" : "23\/08\/2015 04:59",
+      "locationY" : "55.2264809",
+      "crimeDescEn" : "حادث صدم رصيف- بسيط",
+      "crimeDescAr" : "حادث صدم رصيف- بسيط",
+      "crimeID" : "3024919017"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "24.9583962",
+      "crimeDate" : "23\/08\/2015 06:46",
+      "locationY" : "55.0558385",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024929656"
+    },
+    {
+      "crimePriorityType" : 3,
+      "locationX" : "24.9676416",
+      "crimeDate" : "23\/08\/2015 07:01",
+      "locationY" : "55.4576969",
+      "crimeDescEn" : "حادث دهس رجل- بسيط",
+      "crimeDescAr" : "حادث دهس رجل- بسيط",
+      "crimeID" : "3024931765"
+    },
+    {
+      "crimePriorityType" : 3,
+      "locationX" : "25.2816337",
+      "crimeDate" : "23\/08\/2015 07:18",
+      "locationY" : "55.3504714",
+      "crimeDescEn" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeID" : "3024934138"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "24.9289271",
+      "crimeDate" : "23\/08\/2015 07:21",
+      "locationY" : "55.0104394",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024934404"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.080911",
+      "crimeDate" : "23\/08\/2015 07:24",
+      "locationY" : "55.14649",
+      "crimeDescEn" : "حادث صدم و هروب- بسيط",
+      "crimeDescAr" : "حادث صدم و هروب- بسيط",
+      "crimeID" : "3024934795"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.0219667",
+      "crimeDate" : "23\/08\/2015 07:31",
+      "locationY" : "55.1614051",
+      "crimeDescEn" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeID" : "3024935862"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.2631965",
+      "crimeDate" : "23\/08\/2015 07:31",
+      "locationY" : "55.4154056",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024935883"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.1835085",
+      "crimeDate" : "23\/08\/2015 07:37",
+      "locationY" : "55.3796743",
+      "crimeDescEn" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين عدة سيارات- بسيط",
+      "crimeID" : "3024936618"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.2707646",
+      "crimeDate" : "23\/08\/2015 07:44",
+      "locationY" : "55.353674",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024937710"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.1625747",
+      "crimeDate" : "23\/08\/2015 07:56",
+      "locationY" : "55.2331551",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024940025"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.1849569",
+      "crimeDate" : "23\/08\/2015 07:57",
+      "locationY" : "55.2422053",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024940270"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.1964624",
+      "crimeDate" : "23\/08\/2015 07:58",
+      "locationY" : "55.2863837",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024940452"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.2522249",
+      "crimeDate" : "23\/08\/2015 08:02",
+      "locationY" : "55.2773688",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024941196"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.2742471",
+      "crimeDate" : "23\/08\/2015 08:03",
+      "locationY" : "55.3514817",
+      "crimeDescEn" : "حادث صدم جدار- بسيط",
+      "crimeDescAr" : "حادث صدم جدار- بسيط",
+      "crimeID" : "3024941369"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.0925328",
+      "crimeDate" : "23\/08\/2015 08:05",
+      "locationY" : "55.3996237",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024941612"
+    },
+    {
+      "crimePriorityType" : 1,
+      "locationX" : "25.2445217",
+      "crimeDate" : "23\/08\/2015 08:07",
+      "locationY" : "55.3071842",
+      "crimeDescEn" : "حادث حريق في مركبة- متوسط",
+      "crimeDescAr" : "حادث حريق في مركبة- متوسط",
+      "crimeID" : "3024941773"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.2580844",
+      "crimeDate" : "23\/08\/2015 08:07",
+      "locationY" : "55.3188539",
+      "crimeDescEn" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeDescAr" : "حادث اصطدام بين سيارتين- بسيط",
+      "crimeID" : "3024941902"
+    },
+    {
+      "crimePriorityType" : 3,
+      "locationX" : "25.2295612",
+      "crimeDate" : "23\/08\/2015 08:07",
+      "locationY" : "55.2644558",
+      "crimeDescEn" : "حادث ضد مجهول- بسيط",
+      "crimeDescAr" : "حادث ضد مجهول- بسيط",
+      "crimeID" : "3024941940"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.2355732",
+      "crimeDate" : "23\/08\/2015 08:08",
+      "locationY" : "55.3611627",
+      "crimeDescEn" : "حادث ضد مجهول- بسيط",
+      "crimeDescAr" : "حادث ضد مجهول- بسيط",
+      "crimeID" : "3024941979"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.1698718",
+      "crimeDate" : "23\/08\/2015 08:08",
+      "locationY" : "55.2413247",
+      "crimeDescEn" : "حادث اصطدام بين عدة سيارات- متوسط",
+      "crimeDescAr" : "حادث اصطدام بين عدة سيارات- متوسط",
+      "crimeID" : "3024942022"
+    },
+    {
+      "crimePriorityType" : 2,
+      "locationX" : "25.22106",
+      "crimeDate" : "23\/08\/2015 08:09",
+      "locationY" : "55.3386226",
+      "crimeDescEn" : "حادث صدم و هروب- بسيط",
+      "crimeDescAr" : "حادث صدم و هروب- بسيط",
+      "crimeID" : "3024942500"
+    }
+  ]
+}

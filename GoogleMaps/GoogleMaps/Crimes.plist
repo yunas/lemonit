@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>responseCode</key>
+	<string>1</string>
+	<key>responseDesc</key>
+	<string>Success</string>
+	<key>trafficcrimes</key>
+	<array>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 03:57</string>
+			<key>crimeDescAr</key>
+			<string>حادث صدم جدار- متوسط</string>
+			<key>crimeDescEn</key>
+			<string>حادث صدم جدار- متوسط</string>
+			<key>crimeID</key>
+			<string>3024913132</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.1848134</string>
+			<key>locationY</key>
+			<string>55.3369652</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 04:59</string>
+			<key>crimeDescAr</key>
+			<string>حادث صدم رصيف- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث صدم رصيف- بسيط</string>
+			<key>crimeID</key>
+			<string>3024919017</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.0444337</string>
+			<key>locationY</key>
+			<string>55.2264809</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 06:46</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024929656</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>24.9583962</string>
+			<key>locationY</key>
+			<string>55.0558385</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:01</string>
+			<key>crimeDescAr</key>
+			<string>حادث دهس رجل- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث دهس رجل- بسيط</string>
+			<key>crimeID</key>
+			<string>3024931765</string>
+			<key>crimePriorityType</key>
+			<integer>3</integer>
+			<key>locationX</key>
+			<string>24.9676416</string>
+			<key>locationY</key>
+			<string>55.4576969</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:18</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeID</key>
+			<string>3024934138</string>
+			<key>crimePriorityType</key>
+			<integer>3</integer>
+			<key>locationX</key>
+			<string>25.2816337</string>
+			<key>locationY</key>
+			<string>55.3504714</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:21</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024934404</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>24.9289271</string>
+			<key>locationY</key>
+			<string>55.0104394</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:24</string>
+			<key>crimeDescAr</key>
+			<string>حادث صدم و هروب- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث صدم و هروب- بسيط</string>
+			<key>crimeID</key>
+			<string>3024934795</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.080911</string>
+			<key>locationY</key>
+			<string>55.14649</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:31</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeID</key>
+			<string>3024935862</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.0219667</string>
+			<key>locationY</key>
+			<string>55.1614051</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:31</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024935883</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.2631965</string>
+			<key>locationY</key>
+			<string>55.4154056</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:37</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين عدة سيارات- بسيط</string>
+			<key>crimeID</key>
+			<string>3024936618</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.1835085</string>
+			<key>locationY</key>
+			<string>55.3796743</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:44</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024937710</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.2707646</string>
+			<key>locationY</key>
+			<string>55.353674</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:56</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024940025</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.1625747</string>
+			<key>locationY</key>
+			<string>55.2331551</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:57</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024940270</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.1849569</string>
+			<key>locationY</key>
+			<string>55.2422053</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 07:58</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024940452</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.1964624</string>
+			<key>locationY</key>
+			<string>55.2863837</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:02</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941196</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.2522249</string>
+			<key>locationY</key>
+			<string>55.2773688</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:03</string>
+			<key>crimeDescAr</key>
+			<string>حادث صدم جدار- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث صدم جدار- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941369</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.2742471</string>
+			<key>locationY</key>
+			<string>55.3514817</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:05</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941612</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.0925328</string>
+			<key>locationY</key>
+			<string>55.3996237</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:07</string>
+			<key>crimeDescAr</key>
+			<string>حادث حريق في مركبة- متوسط</string>
+			<key>crimeDescEn</key>
+			<string>حادث حريق في مركبة- متوسط</string>
+			<key>crimeID</key>
+			<string>3024941773</string>
+			<key>crimePriorityType</key>
+			<integer>1</integer>
+			<key>locationX</key>
+			<string>25.2445217</string>
+			<key>locationY</key>
+			<string>55.3071842</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:07</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين سيارتين- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941902</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.2580844</string>
+			<key>locationY</key>
+			<string>55.3188539</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:07</string>
+			<key>crimeDescAr</key>
+			<string>حادث ضد مجهول- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث ضد مجهول- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941940</string>
+			<key>crimePriorityType</key>
+			<integer>3</integer>
+			<key>locationX</key>
+			<string>25.2295612</string>
+			<key>locationY</key>
+			<string>55.2644558</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:08</string>
+			<key>crimeDescAr</key>
+			<string>حادث ضد مجهول- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث ضد مجهول- بسيط</string>
+			<key>crimeID</key>
+			<string>3024941979</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.2355732</string>
+			<key>locationY</key>
+			<string>55.3611627</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:08</string>
+			<key>crimeDescAr</key>
+			<string>حادث اصطدام بين عدة سيارات- متوسط</string>
+			<key>crimeDescEn</key>
+			<string>حادث اصطدام بين عدة سيارات- متوسط</string>
+			<key>crimeID</key>
+			<string>3024942022</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.1698718</string>
+			<key>locationY</key>
+			<string>55.2413247</string>
+		</dict>
+		<dict>
+			<key>crimeDate</key>
+			<string>23/08/2015 08:09</string>
+			<key>crimeDescAr</key>
+			<string>حادث صدم و هروب- بسيط</string>
+			<key>crimeDescEn</key>
+			<string>حادث صدم و هروب- بسيط</string>
+			<key>crimeID</key>
+			<string>3024942500</string>
+			<key>crimePriorityType</key>
+			<integer>2</integer>
+			<key>locationX</key>
+			<string>25.22106</string>
+			<key>locationY</key>
+			<string>55.3386226</string>
+		</dict>
+	</array>
+</dict>
+</plist>

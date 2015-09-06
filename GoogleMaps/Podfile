@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+
+target 'GoogleMaps' do
+pod 'GoogleMaps'
+pod 'Follower'
+pod "DXCustomCallout-ObjC"
+pod "OMAMovingAnnotations", "~> 1.0"
+end

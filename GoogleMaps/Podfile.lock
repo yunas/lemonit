@@ -1,0 +1,19 @@
+PODS:
+  - DXCustomCallout-ObjC (0.2.0)
+  - Follower (0.1)
+  - GoogleMaps (1.10.2)
+  - OMAMovingAnnotations (1.0)
+
+DEPENDENCIES:
+  - DXCustomCallout-ObjC
+  - Follower
+  - GoogleMaps
+  - OMAMovingAnnotations (~> 1.0)
+
+SPEC CHECKSUMS:
+  DXCustomCallout-ObjC: fb223603ee148365de51c2d69bb10443943ff89b
+  Follower: e31f2751a3384e8d97971318b4ba67cafb75ae70
+  GoogleMaps: 5c92e599b07b0a2a9b367c5dd128edc629bddfea
+  OMAMovingAnnotations: 6ec524111a1bd128e624e3a5ad27932e00e65040
+
+COCOAPODS: 0.38.2

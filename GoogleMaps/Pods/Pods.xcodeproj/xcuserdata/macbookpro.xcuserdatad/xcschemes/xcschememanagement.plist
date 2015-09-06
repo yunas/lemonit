@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DXCustomCallout-ObjC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Follower.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>OMAMovingAnnotations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-GoogleMaps.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>35689B47C4AC681909B8D580305079B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>782231DE9689913ED7DDEA2C2A16F120</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9170E2432C755FB5FFFB8BC98640BF4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1BD19CC01A4997C330A3C0B6ABF3F28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

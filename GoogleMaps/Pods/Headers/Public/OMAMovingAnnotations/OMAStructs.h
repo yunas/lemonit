@@ -1,0 +1,1 @@
+../../../OMAMovingAnnotations/Classes/OMAStructs.h

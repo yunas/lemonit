@@ -1,0 +1,1 @@
+../../../OMAMovingAnnotations/Classes/NSValue+OMAMovePathSegment.h

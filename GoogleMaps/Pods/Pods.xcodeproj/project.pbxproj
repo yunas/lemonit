@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02390CEC04F1FC5F665864E2ED2FC3C1 /* DXAnnotationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D83DB75603B8876209114BABC66334 /* DXAnnotationSettings.m */; };
+		0E22E6D31182D73E5963C859D0404356 /* OMAMovingAnnotations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2039A40B5371F05F9AA1E85B7A38D /* OMAMovingAnnotations-dummy.m */; };
+		14E2BEA0E65F4B10BA76C0798F770F85 /* OMAStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC22376915BB6CF34C789DBB010A2A7 /* OMAStructs.h */; };
+		183C73A5C88D519CA63BC68AF29F10A6 /* Follower-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51133A77A7EC476AFC35CDCA5306CB84 /* Follower-dummy.m */; };
+		21E2FF5F61ABD5D189C9752480CA9AF4 /* OMAMovingAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = ED34AC4A290574E07480EB34581F40BA /* OMAMovingAnnotation.h */; };
+		2BFB448E290AC484848688819899D5C6 /* OMAMovingAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF328B5CE7EB486F630D4CC89509849 /* OMAMovingAnnotation.m */; };
+		2C533207E764FC737DD3A9192AF91779 /* OMAMovingAnnotations.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D9E510DF90A482A581E637CCEAF2E7 /* OMAMovingAnnotations.h */; };
+		4983F55BE61B0647D0D4ADC0B091BEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */; };
+		58210B58C3CD23F7169DC0E7F872C317 /* DXCustomCallout-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B5A31AED9157D71DCBC0E9F28A8EFC /* DXCustomCallout-ObjC-dummy.m */; };
+		5B4A54ABE58D7390F54EC6666D6A6688 /* OMAMovingAnnotationsAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 185D0C2ED0CDF5F33511EA3502B13D3D /* OMAMovingAnnotationsAnimator.h */; };
+		5F31A769C647061FCE388939ABBB37FD /* DXAnnotationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 760E2ED0EF7046A27AAEA8C1BE6D7631 /* DXAnnotationSettings.h */; };
+		69F4B02E9244A86834931893F7E1C121 /* NSValue+OMAMovePathSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C3D4A32137F56ECDB313878C3D4A41 /* NSValue+OMAMovePathSegment.m */; };
+		6AD62D95BCFD0BBD240824394FADE279 /* OMAMovePath.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1438FF919901D9A1C2827EEE05EC8B /* OMAMovePath.m */; };
+		78D017457D6B22B22CC648F4C77F8713 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEBCCB9660F3687800D1DECCA52FA29 /* MapKit.framework */; };
+		827249987079621C73418489A435896B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */; };
+		851F3C049FE509766ED433B93D2BAE53 /* OMAStructs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBCEED000EB5A44803420ED5F6A9470 /* OMAStructs.m */; };
+		86D3B079932CFBBBBCB07B97D3B7E84F /* OMAMovePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8936B4FD0DE331FB162B674C900F1426 /* OMAMovePath.h */; };
+		941624D775E6E3FF6098389C937232BF /* Follower.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E13B8B545EC1E81F2DA0A5B5EA61D4 /* Follower.h */; };
+		96E2C36570FD4922C2F23FA29D2A935D /* OMAMovingAnnotationsAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3187F68EAA8CAD229EEAA91E57CC552 /* OMAMovingAnnotationsAnimator.m */; };
+		9ED2763F1F7482A0A2325A1909455FC5 /* NSValue+OMAMovePathSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = D55DB3D846DE35FF816592C747B8DF27 /* NSValue+OMAMovePathSegment.h */; };
+		A7711421FD7BD2740C2C66991B6E70DB /* DXAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E012395AD24432E548658AFF114F4 /* DXAnnotationView.m */; };
+		ADE2BCDDC6B88BFB89F5A80BFAB73931 /* DXAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = D445C7D5A4A16FECA93CC7971257AC0B /* DXAnnotationView.h */; };
+		BA93258579EA04EA3DEA5A998E151B38 /* Pods-GoogleMaps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5958329E83C4B7168E03EC58FAEC02 /* Pods-GoogleMaps-dummy.m */; };
+		CE81664AD4A07FD9C2CBB61EE9C29395 /* Follower.m in Sources */ = {isa = PBXBuildFile; fileRef = 19435B5AC0F0F17E501BE78F523A826A /* Follower.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D916E2C6FBD8D054B36699B2C8A6A254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */; };
+		E0E2EF113AD6DFB7C141C54801C58E35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDFBE21785B8DFFBBE44AA6B9660C9C /* UIKit.framework */; };
+		FEC7B65A881BB175259127EFB25B329A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE3ACA486E84AFDC43B172B4F6144AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782231DE9689913ED7DDEA2C2A16F120;
+			remoteInfo = "DXCustomCallout-ObjC";
+		};
+		1F1E7369DBF4E1D6DF41B9C2B9A47E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35689B47C4AC681909B8D580305079B4;
+			remoteInfo = OMAMovingAnnotations;
+		};
+		50EFB7CB7E2C8C84C74E3EB013E7EBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BD19CC01A4997C330A3C0B6ABF3F28;
+			remoteInfo = Follower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D83DB75603B8876209114BABC66334 /* DXAnnotationSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DXAnnotationSettings.m; path = Pod/Classes/DXAnnotationSettings.m; sourceTree = "<group>"; };
+		0DB6AF68AD2460D59B23F86B9F7F7A10 /* Pods-GoogleMaps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleMaps-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FEBCCB9660F3687800D1DECCA52FA29 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		12CF4A9A52E727180BD4AD51BF66F961 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		185D0C2ED0CDF5F33511EA3502B13D3D /* OMAMovingAnnotationsAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMAMovingAnnotationsAnimator.h; path = Classes/OMAMovingAnnotationsAnimator.h; sourceTree = "<group>"; };
+		19435B5AC0F0F17E501BE78F523A826A /* Follower.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Follower.m; path = "Source/Objective-C/Follower.m"; sourceTree = "<group>"; };
+		26075B82E8BF9847807E7E35933B0312 /* Pods-GoogleMaps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleMaps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31A9B1A67B43B57BE6429E928204D520 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		3EAED5A85B91958449F9550FD46C414E /* Pods-GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
+		435A882931D64A94642CC86A2C304579 /* Pods-GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD3A6186FE75D80B9E58B5F963648B7 /* DXCustomCallout-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXCustomCallout-ObjC-prefix.pch"; sourceTree = "<group>"; };
+		51133A77A7EC476AFC35CDCA5306CB84 /* Follower-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Follower-dummy.m"; sourceTree = "<group>"; };
+		5237635CEB4343A2E84A48DDDA25EC20 /* libDXCustomCallout-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libDXCustomCallout-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1AC4EEE91BE8006083EA55D70C48D9 /* Pods-GoogleMaps-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMaps-resources.sh"; sourceTree = "<group>"; };
+		71A2039A40B5371F05F9AA1E85B7A38D /* OMAMovingAnnotations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMAMovingAnnotations-dummy.m"; sourceTree = "<group>"; };
+		760E2ED0EF7046A27AAEA8C1BE6D7631 /* DXAnnotationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DXAnnotationSettings.h; path = Pod/Classes/DXAnnotationSettings.h; sourceTree = "<group>"; };
+		7FBCEED000EB5A44803420ED5F6A9470 /* OMAStructs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMAStructs.m; path = Classes/OMAStructs.m; sourceTree = "<group>"; };
+		818DD08019BBA4D1F173985FC1E3A8EC /* Follower-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Follower-prefix.pch"; sourceTree = "<group>"; };
+		8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8936B4FD0DE331FB162B674C900F1426 /* OMAMovePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMAMovePath.h; path = Classes/OMAMovePath.h; sourceTree = "<group>"; };
+		9BC22376915BB6CF34C789DBB010A2A7 /* OMAStructs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMAStructs.h; path = Classes/OMAStructs.h; sourceTree = "<group>"; };
+		9D543D7957670D547EFA24D15AE5F15C /* OMAMovingAnnotations-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OMAMovingAnnotations-Private.xcconfig"; sourceTree = "<group>"; };
+		9DF328B5CE7EB486F630D4CC89509849 /* OMAMovingAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMAMovingAnnotation.m; path = Classes/OMAMovingAnnotation.m; sourceTree = "<group>"; };
+		A3187F68EAA8CAD229EEAA91E57CC552 /* OMAMovingAnnotationsAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMAMovingAnnotationsAnimator.m; path = Classes/OMAMovingAnnotationsAnimator.m; sourceTree = "<group>"; };
+		A9D9E510DF90A482A581E637CCEAF2E7 /* OMAMovingAnnotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMAMovingAnnotations.h; path = Classes/OMAMovingAnnotations.h; sourceTree = "<group>"; };
+		AA906FDDBCEBF257DE7457A5B5B2BCD0 /* libPods-GoogleMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDFBE21785B8DFFBBE44AA6B9660C9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6B5A31AED9157D71DCBC0E9F28A8EFC /* DXCustomCallout-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DXCustomCallout-ObjC-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C17483B67FA35A13F2F5A406A514C333 /* Follower.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Follower.xcconfig; sourceTree = "<group>"; };
+		C7C3D4A32137F56ECDB313878C3D4A41 /* NSValue+OMAMovePathSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+OMAMovePathSegment.m"; path = "Classes/NSValue+OMAMovePathSegment.m"; sourceTree = "<group>"; };
+		CC3C593532DC83184E7BC68DDA08AA4C /* libOMAMovingAnnotations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMAMovingAnnotations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D445C7D5A4A16FECA93CC7971257AC0B /* DXAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DXAnnotationView.h; path = Pod/Classes/DXAnnotationView.h; sourceTree = "<group>"; };
+		D55DB3D846DE35FF816592C747B8DF27 /* NSValue+OMAMovePathSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+OMAMovePathSegment.h"; path = "Classes/NSValue+OMAMovePathSegment.h"; sourceTree = "<group>"; };
+		D57B50BA0B5175D75227BF3CA42CC20E /* DXCustomCallout-ObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DXCustomCallout-ObjC.xcconfig"; sourceTree = "<group>"; };
+		DC1438FF919901D9A1C2827EEE05EC8B /* OMAMovePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMAMovePath.m; path = Classes/OMAMovePath.m; sourceTree = "<group>"; };
+		DC5958329E83C4B7168E03EC58FAEC02 /* Pods-GoogleMaps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleMaps-dummy.m"; sourceTree = "<group>"; };
+		DDDECF634ADEA68686BC5E17E6086D5E /* OMAMovingAnnotations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMAMovingAnnotations.xcconfig; sourceTree = "<group>"; };
+		DF0C75AB7321FCA0FBA2664A0487FC5E /* libFollower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFollower.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED34AC4A290574E07480EB34581F40BA /* OMAMovingAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMAMovingAnnotation.h; path = Classes/OMAMovingAnnotation.h; sourceTree = "<group>"; };
+		ED4B62ECEA1E71ECE86FF2E15890FFA0 /* DXCustomCallout-ObjC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DXCustomCallout-ObjC-Private.xcconfig"; sourceTree = "<group>"; };
+		F1E13B8B545EC1E81F2DA0A5B5EA61D4 /* Follower.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Follower.h; path = "Source/Objective-C/Follower.h"; sourceTree = "<group>"; };
+		F5B7BD75F7CF6EB0A8052F986CF739C3 /* Follower-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Follower-Private.xcconfig"; sourceTree = "<group>"; };
+		F75E012395AD24432E548658AFF114F4 /* DXAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DXAnnotationView.m; path = Pod/Classes/DXAnnotationView.m; sourceTree = "<group>"; };
+		FD93F5E1C23B0D21497FB9340AB80642 /* OMAMovingAnnotations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMAMovingAnnotations-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4269BA38374F7EB83DFDB5FE1E53E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827249987079621C73418489A435896B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4BB702E84C5E57CB7086BE37AC43EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916E2C6FBD8D054B36699B2C8A6A254 /* Foundation.framework in Frameworks */,
+				78D017457D6B22B22CC648F4C77F8713 /* MapKit.framework in Frameworks */,
+				E0E2EF113AD6DFB7C141C54801C58E35 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61938E305C3B738D23E790087EE0CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC7B65A881BB175259127EFB25B329A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DB94CE9EE8B676627DD8775138EE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4983F55BE61B0647D0D4ADC0B091BEF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019D6C25892AE1A9BA04DC2950BCB9B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C17483B67FA35A13F2F5A406A514C333 /* Follower.xcconfig */,
+				F5B7BD75F7CF6EB0A8052F986CF739C3 /* Follower-Private.xcconfig */,
+				51133A77A7EC476AFC35CDCA5306CB84 /* Follower-dummy.m */,
+				818DD08019BBA4D1F173985FC1E3A8EC /* Follower-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Follower";
+			sourceTree = "<group>";
+		};
+		0B4232AE2495B4D67798FED56CD788A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57B50BA0B5175D75227BF3CA42CC20E /* DXCustomCallout-ObjC.xcconfig */,
+				ED4B62ECEA1E71ECE86FF2E15890FFA0 /* DXCustomCallout-ObjC-Private.xcconfig */,
+				B6B5A31AED9157D71DCBC0E9F28A8EFC /* DXCustomCallout-ObjC-dummy.m */,
+				4DD3A6186FE75D80B9E58B5F963648B7 /* DXCustomCallout-ObjC-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DXCustomCallout-ObjC";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91E9FA7F982532B138A234315CF3DD4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D45FFF0B4F2633F5846FC53AC029C91 /* Follower */ = {
+			isa = PBXGroup;
+			children = (
+				F1E13B8B545EC1E81F2DA0A5B5EA61D4 /* Follower.h */,
+				19435B5AC0F0F17E501BE78F523A826A /* Follower.m */,
+				019D6C25892AE1A9BA04DC2950BCB9B8 /* Support Files */,
+			);
+			path = Follower;
+			sourceTree = "<group>";
+		};
+		289B0B75E34141A9F1B45A3C46003FEC /* OMAMovingAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				D55DB3D846DE35FF816592C747B8DF27 /* NSValue+OMAMovePathSegment.h */,
+				C7C3D4A32137F56ECDB313878C3D4A41 /* NSValue+OMAMovePathSegment.m */,
+				8936B4FD0DE331FB162B674C900F1426 /* OMAMovePath.h */,
+				DC1438FF919901D9A1C2827EEE05EC8B /* OMAMovePath.m */,
+				ED34AC4A290574E07480EB34581F40BA /* OMAMovingAnnotation.h */,
+				9DF328B5CE7EB486F630D4CC89509849 /* OMAMovingAnnotation.m */,
+				A9D9E510DF90A482A581E637CCEAF2E7 /* OMAMovingAnnotations.h */,
+				185D0C2ED0CDF5F33511EA3502B13D3D /* OMAMovingAnnotationsAnimator.h */,
+				A3187F68EAA8CAD229EEAA91E57CC552 /* OMAMovingAnnotationsAnimator.m */,
+				9BC22376915BB6CF34C789DBB010A2A7 /* OMAStructs.h */,
+				7FBCEED000EB5A44803420ED5F6A9470 /* OMAStructs.m */,
+				993AD136FD6BF3EA43939D340E025E87 /* Support Files */,
+			);
+			path = OMAMovingAnnotations;
+			sourceTree = "<group>";
+		};
+		2CD8DE9C40BBA2D2C0A36D02D98BFE03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				762BE39FF4F2ED083CC50C2359FEE14B /* DXCustomCallout-ObjC */,
+				1D45FFF0B4F2633F5846FC53AC029C91 /* Follower */,
+				3D713E941706B22F3E6F95A605E02698 /* GoogleMaps */,
+				289B0B75E34141A9F1B45A3C46003FEC /* OMAMovingAnnotations */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D713E941706B22F3E6F95A605E02698 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				AEB69A16D37E3F355373B9C46A39FFD4 /* Frameworks */,
+				9D2270A36EECBCE47721496F6519ECF0 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		57FC14A9839CE1CB9B73348357CA1F11 /* Pods-GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				26075B82E8BF9847807E7E35933B0312 /* Pods-GoogleMaps-acknowledgements.markdown */,
+				0DB6AF68AD2460D59B23F86B9F7F7A10 /* Pods-GoogleMaps-acknowledgements.plist */,
+				DC5958329E83C4B7168E03EC58FAEC02 /* Pods-GoogleMaps-dummy.m */,
+				6F1AC4EEE91BE8006083EA55D70C48D9 /* Pods-GoogleMaps-resources.sh */,
+				435A882931D64A94642CC86A2C304579 /* Pods-GoogleMaps.debug.xcconfig */,
+				3EAED5A85B91958449F9550FD46C414E /* Pods-GoogleMaps.release.xcconfig */,
+			);
+			name = "Pods-GoogleMaps";
+			path = "Target Support Files/Pods-GoogleMaps";
+			sourceTree = "<group>";
+		};
+		74D08B3582FA15DCEC9BA1BC4864CA83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FC14A9839CE1CB9B73348357CA1F11 /* Pods-GoogleMaps */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		762BE39FF4F2ED083CC50C2359FEE14B /* DXCustomCallout-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				760E2ED0EF7046A27AAEA8C1BE6D7631 /* DXAnnotationSettings.h */,
+				08D83DB75603B8876209114BABC66334 /* DXAnnotationSettings.m */,
+				D445C7D5A4A16FECA93CC7971257AC0B /* DXAnnotationView.h */,
+				F75E012395AD24432E548658AFF114F4 /* DXAnnotationView.m */,
+				0B4232AE2495B4D67798FED56CD788A4 /* Support Files */,
+			);
+			path = "DXCustomCallout-ObjC";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				2CD8DE9C40BBA2D2C0A36D02D98BFE03 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				74D08B3582FA15DCEC9BA1BC4864CA83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		993AD136FD6BF3EA43939D340E025E87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDECF634ADEA68686BC5E17E6086D5E /* OMAMovingAnnotations.xcconfig */,
+				9D543D7957670D547EFA24D15AE5F15C /* OMAMovingAnnotations-Private.xcconfig */,
+				71A2039A40B5371F05F9AA1E85B7A38D /* OMAMovingAnnotations-dummy.m */,
+				FD93F5E1C23B0D21497FB9340AB80642 /* OMAMovingAnnotations-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMAMovingAnnotations";
+			sourceTree = "<group>";
+		};
+		9D2270A36EECBCE47721496F6519ECF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31A9B1A67B43B57BE6429E928204D520 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEB69A16D37E3F355373B9C46A39FFD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CF4A9A52E727180BD4AD51BF66F961 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5237635CEB4343A2E84A48DDDA25EC20 /* libDXCustomCallout-ObjC.a */,
+				DF0C75AB7321FCA0FBA2664A0487FC5E /* libFollower.a */,
+				CC3C593532DC83184E7BC68DDA08AA4C /* libOMAMovingAnnotations.a */,
+				AA906FDDBCEBF257DE7457A5B5B2BCD0 /* libPods-GoogleMaps.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91E9FA7F982532B138A234315CF3DD4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8671076ACE9AFA60FB2D472452A37394 /* Foundation.framework */,
+				0FEBCCB9660F3687800D1DECCA52FA29 /* MapKit.framework */,
+				ADDFBE21785B8DFFBBE44AA6B9660C9C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66B01E603329377C505006D4C7D6D40B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2763F1F7482A0A2325A1909455FC5 /* NSValue+OMAMovePathSegment.h in Headers */,
+				86D3B079932CFBBBBCB07B97D3B7E84F /* OMAMovePath.h in Headers */,
+				21E2FF5F61ABD5D189C9752480CA9AF4 /* OMAMovingAnnotation.h in Headers */,
+				2C533207E764FC737DD3A9192AF91779 /* OMAMovingAnnotations.h in Headers */,
+				5B4A54ABE58D7390F54EC6666D6A6688 /* OMAMovingAnnotationsAnimator.h in Headers */,
+				14E2BEA0E65F4B10BA76C0798F770F85 /* OMAStructs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96814DE30E92FE6CA7DA041826155A42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941624D775E6E3FF6098389C937232BF /* Follower.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09F8527ACB3143AEBF0FFCD3C4EECFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F31A769C647061FCE388939ABBB37FD /* DXAnnotationSettings.h in Headers */,
+				ADE2BCDDC6B88BFB89F5A80BFAB73931 /* DXAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35689B47C4AC681909B8D580305079B4 /* OMAMovingAnnotations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724900BE2C6F8B17A9672CBCBDA4E243 /* Build configuration list for PBXNativeTarget "OMAMovingAnnotations" */;
+			buildPhases = (
+				BC261419B2FC32C1F836A6C03C064C33 /* Sources */,
+				C61938E305C3B738D23E790087EE0CE5 /* Frameworks */,
+				66B01E603329377C505006D4C7D6D40B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMAMovingAnnotations;
+			productName = OMAMovingAnnotations;
+			productReference = CC3C593532DC83184E7BC68DDA08AA4C /* libOMAMovingAnnotations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		782231DE9689913ED7DDEA2C2A16F120 /* DXCustomCallout-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7F29C626E7EB27B09FA6CE5322FCE9 /* Build configuration list for PBXNativeTarget "DXCustomCallout-ObjC" */;
+			buildPhases = (
+				A255211F1491461E10C272564B71AB96 /* Sources */,
+				5D4BB702E84C5E57CB7086BE37AC43EC /* Frameworks */,
+				F09F8527ACB3143AEBF0FFCD3C4EECFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DXCustomCallout-ObjC";
+			productName = "DXCustomCallout-ObjC";
+			productReference = 5237635CEB4343A2E84A48DDDA25EC20 /* libDXCustomCallout-ObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9170E2432C755FB5FFFB8BC98640BF4C /* Pods-GoogleMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0C642934EC91D96332A67A1CFA277E /* Build configuration list for PBXNativeTarget "Pods-GoogleMaps" */;
+			buildPhases = (
+				D51AAB2BD30CAC1525A3CD9197207BEB /* Sources */,
+				4269BA38374F7EB83DFDB5FE1E53E280 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31E3FC7D85E375FE3F142AAD1684180 /* PBXTargetDependency */,
+				A76AE5A7D5F9D69A9558794B134213A6 /* PBXTargetDependency */,
+				39F618A1DB06ECC545ED47C036FEDB96 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleMaps";
+			productName = "Pods-GoogleMaps";
+			productReference = AA906FDDBCEBF257DE7457A5B5B2BCD0 /* libPods-GoogleMaps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1BD19CC01A4997C330A3C0B6ABF3F28 /* Follower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781B9938576BBD57D6C265820F16B285 /* Build configuration list for PBXNativeTarget "Follower" */;
+			buildPhases = (
+				15E6DA5CABE88A802AACD368A0675941 /* Sources */,
+				E1DB94CE9EE8B676627DD8775138EE38 /* Frameworks */,
+				96814DE30E92FE6CA7DA041826155A42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Follower;
+			productName = Follower;
+			productReference = DF0C75AB7321FCA0FBA2664A0487FC5E /* libFollower.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782231DE9689913ED7DDEA2C2A16F120 /* DXCustomCallout-ObjC */,
+				E1BD19CC01A4997C330A3C0B6ABF3F28 /* Follower */,
+				35689B47C4AC681909B8D580305079B4 /* OMAMovingAnnotations */,
+				9170E2432C755FB5FFFB8BC98640BF4C /* Pods-GoogleMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E6DA5CABE88A802AACD368A0675941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183C73A5C88D519CA63BC68AF29F10A6 /* Follower-dummy.m in Sources */,
+				CE81664AD4A07FD9C2CBB61EE9C29395 /* Follower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A255211F1491461E10C272564B71AB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02390CEC04F1FC5F665864E2ED2FC3C1 /* DXAnnotationSettings.m in Sources */,
+				A7711421FD7BD2740C2C66991B6E70DB /* DXAnnotationView.m in Sources */,
+				58210B58C3CD23F7169DC0E7F872C317 /* DXCustomCallout-ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC261419B2FC32C1F836A6C03C064C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F4B02E9244A86834931893F7E1C121 /* NSValue+OMAMovePathSegment.m in Sources */,
+				6AD62D95BCFD0BBD240824394FADE279 /* OMAMovePath.m in Sources */,
+				2BFB448E290AC484848688819899D5C6 /* OMAMovingAnnotation.m in Sources */,
+				0E22E6D31182D73E5963C859D0404356 /* OMAMovingAnnotations-dummy.m in Sources */,
+				96E2C36570FD4922C2F23FA29D2A935D /* OMAMovingAnnotationsAnimator.m in Sources */,
+				851F3C049FE509766ED433B93D2BAE53 /* OMAStructs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51AAB2BD30CAC1525A3CD9197207BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA93258579EA04EA3DEA5A998E151B38 /* Pods-GoogleMaps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F618A1DB06ECC545ED47C036FEDB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMAMovingAnnotations;
+			target = 35689B47C4AC681909B8D580305079B4 /* OMAMovingAnnotations */;
+			targetProxy = 1F1E7369DBF4E1D6DF41B9C2B9A47E2F /* PBXContainerItemProxy */;
+		};
+		A76AE5A7D5F9D69A9558794B134213A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Follower;
+			target = E1BD19CC01A4997C330A3C0B6ABF3F28 /* Follower */;
+			targetProxy = 50EFB7CB7E2C8C84C74E3EB013E7EBD1 /* PBXContainerItemProxy */;
+		};
+		C31E3FC7D85E375FE3F142AAD1684180 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DXCustomCallout-ObjC";
+			target = 782231DE9689913ED7DDEA2C2A16F120 /* DXCustomCallout-ObjC */;
+			targetProxy = 1AE3ACA486E84AFDC43B172B4F6144AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05375FFB9F5FED268E712A0725695C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B7BD75F7CF6EB0A8052F986CF739C3 /* Follower-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Follower/Follower-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E9ABCF3072650B67DB940A3869E0A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435A882931D64A94642CC86A2C304579 /* Pods-GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27E82A2623EDE1F814F120945E57C317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAED5A85B91958449F9550FD46C414E /* Pods-GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2A2CE17158C10C2CB0E64254C8984F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D543D7957670D547EFA24D15AE5F15C /* OMAMovingAnnotations-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMAMovingAnnotations/OMAMovingAnnotations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		934ECEB5A3CA0E890EE69D3A9853819B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B7BD75F7CF6EB0A8052F986CF739C3 /* Follower-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Follower/Follower-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9EB645C612834738B99727720210C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E51266CC13A8E38AE63081B31C206FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4B62ECEA1E71ECE86FF2E15890FFA0 /* DXCustomCallout-ObjC-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DXCustomCallout-ObjC/DXCustomCallout-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F6B813410ADE487C9C222675239D2F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D543D7957670D547EFA24D15AE5F15C /* OMAMovingAnnotations-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMAMovingAnnotations/OMAMovingAnnotations-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD0A763488B3585107A1648854639D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4B62ECEA1E71ECE86FF2E15890FFA0 /* DXCustomCallout-ObjC-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DXCustomCallout-ObjC/DXCustomCallout-ObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724900BE2C6F8B17A9672CBCBDA4E243 /* Build configuration list for PBXNativeTarget "OMAMovingAnnotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2CE17158C10C2CB0E64254C8984F8A /* Debug */,
+				F6B813410ADE487C9C222675239D2F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781B9938576BBD57D6C265820F16B285 /* Build configuration list for PBXNativeTarget "Follower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05375FFB9F5FED268E712A0725695C09 /* Debug */,
+				934ECEB5A3CA0E890EE69D3A9853819B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7F29C626E7EB27B09FA6CE5322FCE9 /* Build configuration list for PBXNativeTarget "DXCustomCallout-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A763488B3585107A1648854639D0C /* Debug */,
+				E51266CC13A8E38AE63081B31C206FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0C642934EC91D96332A67A1CFA277E /* Build configuration list for PBXNativeTarget "Pods-GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E9ABCF3072650B67DB940A3869E0A0F /* Debug */,
+				27E82A2623EDE1F814F120945E57C317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
