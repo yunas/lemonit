@@ -46,18 +46,21 @@ class DetailViewController: UIViewController,UINavigationControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        self.view.backgroundColor = UIColor.whiteColor()
+//        view.layer.backgroundColor = UIColor.yellowColor().CGColor
+
+        self.view.backgroundColor = UIColor.yellowColor()
+        self.view.contentMode  = UIViewContentMode.ScaleAspectFill
+
         imageView = UIImageView()
         imageView.setTranslatesAutoresizingMaskIntoConstraints(false)
         imageView.contentMode = UIViewContentMode.ScaleAspectFit
         imageView.image = image
         let imH = "H:[imageView(\(screenWidth/2.1))]"
-        let imV = "V:|-150-[imageView(\(screenWidth/2.1*1.5))]"
+        let imV = "V:|-150-[imageView(\(screenWidth/2.1))]"
         let viewDic = ["imageView":imageView]
         view.addSubview(imageView)
 
-        setLocationAccrodingWithSuperViewAndCurrentViewSetLayoutAttributeCenterX(view, currentView: imageView, width: "\(screenWidth/2.1*1.5)")
+        setLocationAccrodingWithSuperViewAndCurrentViewSetLayoutAttributeCenterX(view, currentView: imageView, width: "\(screenWidth/2.1)")
         setConstraintsWithStringHandVWithCurrentView(imH, formatV: imV, superView: view, viewDic: viewDic)
         // Do any additional setup after loading the view.
     }

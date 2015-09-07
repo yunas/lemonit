@@ -7,21 +7,27 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlbumImageView" customModule="Animations" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="albumCell" id="gTV-IL-0wX" customClass="AlbumImageView" customModule="Animations" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="191" height="256"/>
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="191" height="256"/>
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2aJ-Sx-7Gr">
-                        <rect key="frame" x="0.0" y="0.0" width="191" height="256"/>
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="2aJ-Sx-7Gr" secondAttribute="trailing" id="DZ6-Y3-aNZ"/>
                 <constraint firstAttribute="bottom" secondItem="2aJ-Sx-7Gr" secondAttribute="bottom" id="LU4-rn-Ewh"/>
                 <constraint firstAttribute="trailing" secondItem="2aJ-Sx-7Gr" secondAttribute="trailing" id="PDX-gR-mkJ"/>
+                <constraint firstItem="2aJ-Sx-7Gr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QFP-CJ-7Hi"/>
+                <constraint firstItem="2aJ-Sx-7Gr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aiy-rm-RIM"/>
                 <constraint firstItem="2aJ-Sx-7Gr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gp8-0R-suh"/>
+                <constraint firstAttribute="bottom" secondItem="2aJ-Sx-7Gr" secondAttribute="bottom" id="sux-KQ-hjR"/>
                 <constraint firstItem="2aJ-Sx-7Gr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vdf-fx-q3S"/>
             </constraints>
             <size key="customSize" width="191" height="256"/>

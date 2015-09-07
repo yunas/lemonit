@@ -99,7 +99,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSizeMake(screenWidth/2.1, screenWidth/2.1 * 1.5)
+        return CGSizeMake(screenWidth/2.1, screenWidth/2.1 )
         
     }
     

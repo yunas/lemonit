@@ -112,16 +112,11 @@ class TransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning{
         
         var circleMaskPathInitial = UIBezierPath(ovalInRect: imageView.frame)
         
-        //        print("\(button.center.x)  : \(button.center.y)")
         var extremePoint = CGPoint(x: imageView.center.x - 0, y: imageView.center.y - CGRectGetHeight(toViewController.view.bounds))
         
         print("\(extremePoint.x) + \(extremePoint.y)")
         
-        
-        
         var radius = sqrt((extremePoint.x * extremePoint.x) + (extremePoint.y*extremePoint.y))
-        
-        
         
         var circleMaskPathFinal = UIBezierPath(ovalInRect:  CGRectInset(imageView.frame, -radius, -radius))
         
@@ -177,22 +172,22 @@ class TransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning{
         
         toViewController.view.frame = transitionContext.finalFrameForViewController(toViewController)
         
-        containerView.addSubview(fromViewController.view)
         containerView.addSubview(toViewController.view)
+        containerView.addSubview(fromViewController.view)
         containerView.addSubview(imageSnapshot)
         
         //=================== 
+
         
+        var circleMaskPathFinal = UIBezierPath(ovalInRect:fromViewController.imageView.frame)
         
-        var circleMaskPathFinal = UIBezierPath(ovalInRect:imageCell.frame)
-        
-        var extremePoint = CGPoint(x: imageCell.center.x - 0, y: imageCell.center.y - CGRectGetHeight(fromViewController.view.bounds))
+        var extremePoint = CGPoint(x: fromViewController.imageView.center.x - 0, y: fromViewController.imageView.center.y - CGRectGetHeight(fromViewController.view.bounds))
         
         var radius = sqrt((extremePoint.x * extremePoint.x) + (extremePoint.y*extremePoint.y))
         
         
         
-        var circleMaskPathInitial = UIBezierPath(ovalInRect:  CGRectInset(imageCell.frame, -radius, -radius))
+        var circleMaskPathInitial = UIBezierPath(ovalInRect:  CGRectInset(fromViewController.imageView.frame, -radius, -radius))
         
         var maskLayer = CAShapeLayer()
         
@@ -207,9 +202,11 @@ class TransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning{
         maskLayerAnimation.fromValue =  circleMaskPathInitial.CGPath
         maskLayerAnimation.toValue =   circleMaskPathFinal.CGPath
         
+        
         maskLayerAnimation.duration = self.transitionDuration(transitionContext)
         maskLayerAnimation.delegate = self
         maskLayer.addAnimation(maskLayerAnimation, forKey: "path")
+
         
         //===================
         
@@ -228,83 +225,6 @@ class TransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning{
                 
         })
     }
-    
-    
-    func zoomOutAniamtion(button:UIButton,fromViewController:UIViewController){
-        
-        print(button.frame)
-        
-        //        path mask
-        var circleMaskPathFinal = UIBezierPath(ovalInRect:button.frame)
-        
-        var extremePoint = CGPoint(x: button.center.x - 0, y: button.center.y - CGRectGetHeight(fromViewController.view.bounds))
-        
-        var radius = sqrt((extremePoint.x * extremePoint.x) + (extremePoint.y*extremePoint.y))
-        
-        
-        
-        var circleMaskPathInitial = UIBezierPath(ovalInRect:  CGRectInset(button.frame, -radius, -radius))
-        
-        var maskLayer = CAShapeLayer()
-        
-        
-        var maskLayerAnimation = CABasicAnimation(keyPath: "path")
-        
-        
-        maskLayer.path = circleMaskPathInitial.CGPath
-        fromViewController.view.layer.mask = maskLayer
-        
-        
-        maskLayerAnimation.fromValue =  circleMaskPathInitial.CGPath
-        maskLayerAnimation.toValue =   circleMaskPathFinal.CGPath
-        
-        
-        maskLayerAnimation.duration = self.transitionDuration(transitionContext!)
-        maskLayerAnimation.delegate = self
-        maskLayer.addAnimation(maskLayerAnimation, forKey: "path")
-        
-    }
-    
-    
-    func zoomInAniamtion(button:UIButton,toViewController:UIViewController){
-        
-        
-        //        path mask
-        
-        var circleMaskPathInitial = UIBezierPath(ovalInRect: button.frame)
-        
-        //        print("\(button.center.x)  : \(button.center.y)")
-        var extremePoint = CGPoint(x: button.center.x - 0, y: button.center.y - CGRectGetHeight(toViewController.view.bounds))
-        
-        print("\(extremePoint.x) + \(extremePoint.y)")
-        
-        
-        
-        var radius = sqrt((extremePoint.x * extremePoint.x) + (extremePoint.y*extremePoint.y))
-        
-        
-        
-        var circleMaskPathFinal = UIBezierPath(ovalInRect:  CGRectInset(button.frame, -radius, -radius))
-        
-        //5
-        var maskLayer = CAShapeLayer()
-        
-        
-        var maskLayerAnimation = CABasicAnimation(keyPath: "path")
-        maskLayer.path = circleMaskPathFinal.CGPath
-        maskLayerAnimation.fromValue =  circleMaskPathInitial.CGPath
-        maskLayerAnimation.toValue = circleMaskPathFinal.CGPath
-        
-        
-        toViewController.view.layer.mask = maskLayer
-        maskLayerAnimation.duration = self.transitionDuration(transitionContext!)
-        maskLayerAnimation.delegate = self
-        maskLayer.addAnimation(maskLayerAnimation, forKey: nil)
-        
-        
-        
-    }
-    
     
     override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
         self.transitionContext?.completeTransition(!self.transitionContext!.transitionWasCancelled())
